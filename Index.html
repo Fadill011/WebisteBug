@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Bug WhatsApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🟦 Halaman Pertama -->
+    <div id="page1" class="page active">
+        <h1>Website Bug WhatsApp</h1>
+        <button onclick="goToPage2()">Mulai</button>
+    </div>
+
+    <!-- 🟩 Halaman Kedua -->
+    <div id="page2" class="page">
+        <h2>Masukkan Nomor WhatsApp</h2>
+
+        <input type="number" id="waNumber" placeholder="Contoh: 0895xxxxxxx">
+        <br>
+        <button onclick="sendBug()">Kirim Bug</button>
+    </div>
+
+    <!-- 🔊 AUDIO (tanpa tampilan layar) -->
+    <audio id="bugAudio">
+        <source src="https://files.catbox.moe/jqdwey.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

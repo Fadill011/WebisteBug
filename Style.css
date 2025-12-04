@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Halaman */
+.page {
+  display: none;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+/* Tombol */
+button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Input */
+input {
+  margin-top: 15px;
+  padding: 12px;
+  width: 230px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
